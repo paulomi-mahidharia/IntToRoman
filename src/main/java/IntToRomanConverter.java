@@ -1,7 +1,6 @@
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 /**
  * A program to take an INTEGER as an input and return ROMAN number for it.
@@ -10,7 +9,7 @@ import java.util.TreeMap;
  */
 public class IntToRomanConverter {
 
-	private static HashMap<Integer, String> map = new HashMap<>();
+	private static Map<Integer, String> map = new HashMap<>();
 
 	public static void main(String args[]) {
 
