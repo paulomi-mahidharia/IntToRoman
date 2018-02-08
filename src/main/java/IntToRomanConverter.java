@@ -56,7 +56,7 @@ public class IntToRomanConverter {
 
 	/**
 	 * First pass to find Roman from Int value. Not an optimal solution but reflects the first approach/idea.
-	 * Computes with the help of several conditional modulus checks.
+	 * Computes with the help of several conditional modulus checks from Right to Left.
 	 *
 	 * @param num an integer number
 	 * @return Roman number equivalent to given number
